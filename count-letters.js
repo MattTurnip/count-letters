@@ -6,10 +6,10 @@ function countLetters(string){
   for (var i = 0; i < splitStr.length ; i++) {
 
     if (object[splitStr[i]] === undefined){
-    object[splitStr[i]] = 1
+    object[splitStr[i]] = 1;
   }
   else {
-    object[splitStr[i]] += 1
+    object[splitStr[i]] += 1;
   }
 
   }
@@ -20,5 +20,5 @@ function countLetters(string){
 
 //test parameter
 console.log(countLetters("hello there"));
-
+console.log(countLetters("lighthouse in the house"));
 
